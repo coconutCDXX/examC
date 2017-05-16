@@ -1,13 +1,4 @@
-#include <stdlib.h>
-#include <stdio.h>
-
-typedef struct 	b_list
-{
-	char s;
-	char check;
-	b_list *next;
-} 				signs;
-
+#include <brackets.h>
 
 signs	*ft_lstnew(char a, char b)
 {
@@ -44,8 +35,6 @@ int check(char s)
 	}
 	return 0;
 }
-
-
 
 int main(int ac, char **av)
 {
